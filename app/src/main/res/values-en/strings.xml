@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="next_string">CONTINUE</string>
+    <string name="enter_domain">Enter domain:</string>
+    <string name="version_actualy">version 1.0.1</string>
+    <string name="enter_apikey">Enter your API key:</string>
+    <string name="not_two_full">Please enter information in both fields above to continue.</string>
+    <string name="name_qr_codeactive">Login via QR code</string>
+    <string name="need_internet">An internet connection is required to continue.</string>
+    <string name="correct_data">To continue, please enter correct information.</string>
+    <string name="nav_qrscrev">Point to the QR code:</string>
+    <string name="enter_handley">Or log in manually:</string>
+    <string name="enter_handley_data">ENTER DATA</string>
+    <string name="change_one">Изменить язык:</string>
+    <string name="change_two">РУ</string>
+
+    <string name="no">No</string>
+
+    <string name="notification_listener_service">Request Permissions</string>
+    <string name="notification_listener_service_explanation">To continue working, you need to give permission to access your notifications and SMS </string>
+
+    <string name="connection_succes">CONNECTION SUCCESSFUL</string>
+    <string name="connet_tonexxt">To continue working with the application, click the "Continue" button and you will need to allow access to PUSH and SMS collection</string>
+    <string name="data_main_d">Data</string>
+    <string name="vector_main_d">Directions</string>
+    <string name="sett_main_d">Settings</string>
+    <string name="vector_main_d_sbor">Directions for collecting:</string>
+    <string name="id_this">ID of this device:</string>
+    <string name="app_id">Application version:</string>
+    <string name="langu_ch">Language selection:</string>
+    <string name="test_send">SEND TEST</string>
+    <string name="give_permis">GIVE PERMISSION</string>
+    <string name="down_log">DOWNLOAD LOGS</string>
+    <string name="check_upda">CHECK FOR UPDATES</string>
+    <string name="copy_succes">Successfully copied to clipboard</string>
+
+    <string name="online_data">online</string>
+    <string name="offline_data">offline</string>
+    <string name="succes_last">Last successful:</string>
+    <string name="succes_deliver">Successfully delivered</string>
+</resources>

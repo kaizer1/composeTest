@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "488807321393",
+    "project_id": "catcher-f8a50",
+    "storage_bucket": "catcher-f8a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488807321393:android:0fe4c0af1639b7f8732a10",
+        "android_client_info": {
+          "package_name": "cather.lfree.workdscather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxSJKX5I8KnFmxn_zGKHVxrzT-0_RXyak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

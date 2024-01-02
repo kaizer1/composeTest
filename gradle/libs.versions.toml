@@ -1,0 +1,56 @@
+[versions]
+agp = "8.2.0"
+kotlin = "1.9.0"
+core-ktx = "1.12.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.7.0"
+compose-bom = "2023.08.00"
+appcompat = "1.6.1"
+play-services-code-scanner = "16.1.0"
+lifecycle-livedata-ktx = "2.6.2"
+lifecycle-viewmodel-ktx = "2.6.2"
+lifecycle-extensions = "2.2.0"
+google-service-version = "4.4.0"
+firebase-version-bom = "32.1.0"
+http3ver = "4.9.0"
+viewmodel = "1.1.1"
+
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+play-services-code-scanner = { module = "com.google.android.gms:play-services-code-scanner", version.ref = "play-services-code-scanner" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+fire-bom = {group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-version-bom" }
+fire-firebase = { group = "com.google.firebase", name="firebase-firestore-ktx", version= "24.9.1" }
+fire-analy = { group = "com.google.firebase", name = "firebase-analytics-ktx", version = "21.5.0" }
+fire-crash = { group = "com.google.firebase", name = "firebase-crashlytics", version = "unspecified"}
+
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycle-extensions" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+squareup-okhttp3 = {group= "com.squareup.okhttp3", name= "okhttp", version.ref = "http3ver" }
+squareup-okhttp3-bom = { group ="com.squareup.okhttp3", name ="okhttp-bom", version.ref ="http3ver" }
+viewmodel = { module = "android.arch.lifecycle:viewmodel", version.ref = "viewmodel" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+com-google-service = { id = "com.google.gms.google-services", version.ref = "google-service-version" }
+com-crash = { id = "com.google.firebase.crashlytics", version = "2.9.9" }

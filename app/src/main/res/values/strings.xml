@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">Catcher</string>
+
+        <string name="serves_name" translatable="false">ServesNotify</string>
+     <string name="serves_name_sms" translatable="false">ServesSMSReceiver</string>
+    <string name="next_string">ПРОДОЛЖИТЬ</string>
+    <string name="enter_domain">Введите домен:</string>
+    <string name="version_actualy">версия 1.0.1</string>
+    <string name="enter_apikey">Введите API-ключ:</string>
+    <string name="not_two_full">Чтобы продолжить, введите данные в оба поля выше</string>
+    <string name="name_qr_codeactive">Зайти через QR-код</string>
+    <string name="need_internet">Чтобы продолжить необходимо соединение с интернетом</string>
+    <string name="correct_data">Чтобы продолжить введите корректные данные</string>
+    <string name="nav_qrscrev">Наведите на QR-код:</string>
+    <string name="enter_handley">Или войдите вручную:</string>
+    <string name="enter_handley_data">ВВЕСТИ ДАННЫЕ</string>
+    <string name="change_one">Change Language:</string>
+    <string name="change_two">EN</string>
+
+    <string name="yes" translatable="false">ОК</string>
+    <string name="no">Нет</string>
+    <string name="notification_listener_service">Запрос разрешений</string>
+    <string name="notification_listener_service_explanation">Для продолжения работы, вам надо дать разрешение на доступ к вашим уведомления и смс </string>
+
+    <string name="connection_succes">СОЕДИНЕНИЕ УСПЕШНО</string>
+    <string name="connet_tonexxt">Для продолжения работы с приложением нажмите кнопку "Продолжить" и потребуется разрешить доступ к сбору PUSH и SMS</string>
+    <string name="data_main_d">Данные</string>
+    <string name="vector_main_d">Направления</string>
+    <string name="sett_main_d">Настройки</string>
+    <string name="vector_main_d_sbor">Направления для сбора:</string>
+    <string name="id_this">ID этого устройства:</string>
+    <string name="app_id">Версия приложения:</string>
+    <string name="langu_ch">Выбор языка:</string>
+    <string name="test_send">ОТПРАВИТЬ ТЕСТОВОЕ</string>
+    <string name="give_permis">ДАТЬ РАЗРЕШЕНИЯ</string>
+    <string name="down_log">СКАЧАТЬ ЛОГИ</string>
+    <string name="check_upda">ПРОВЕРИТЬ ОБНОВЛЕНИЯ</string>
+    <string name="copy_succes">Успешно скопикоровано в буфер обмена</string>
+    <string name="online_data">онлайн</string>
+    <string name="offline_data">оффлайн</string>
+    <string name="succes_last">Последнее успешное:</string>
+    <string name="succes_deliver">Успешно доставлено</string>
+
+</resources>
